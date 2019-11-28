@@ -1,0 +1,17 @@
+{
+  "name": "motel411tokyo",
+  "version": "1.0.0",
+  "description": "This site is motel 4111 tokyo site",
+  "author": "ryosukefujiki",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
