@@ -1,47 +1,37 @@
 <template>
-  <div class="container">
-    <h1>Motel 411 Tokyo</h1>
+  <div class="TheIndexCountainer">
+    <a href="https://motel411.base.shop/" class="TheIndexCountainer_Heading">Motel 411 Tokyo</a>
   </div>
 </template>
-
 <script>
-// import Vue from 'Vue'
-// export default Vue.extend({
-//   fetch({ redirect }) {
-//     redirect('https://motel411.base.shop/')
-//   }
-// })
+import Logo from '~/components/Logo.vue'
+
+export default {
+  components: {
+    Logo
+  }
+}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
+.TheIndexCountainer{
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+.TheIndexCountainer_Heading{
+  text-decoration: none;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+  color: #000000;
+  transition: 0.2s;
+  font-size: 20px;
+}
+.TheIndexCountainer_Heading:hover{
+  color: #aaaaaa;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
+
+

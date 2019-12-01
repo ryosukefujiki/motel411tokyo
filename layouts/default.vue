@@ -5,6 +5,10 @@
 </template>
 
 <style>
+
+html,body,#__nuxt,#__layout,#__layout div{
+  height: 100%;
+}
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
