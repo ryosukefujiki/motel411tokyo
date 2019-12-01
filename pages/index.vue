@@ -1,15 +1,16 @@
 <template>
   <div class="container">
+    <h1>Motel 411 Tokyo</h1>
   </div>
 </template>
 
 <script>
-import Vue from 'Vue'
-export default Vue.extend({
-  fetch({ redirect }) {
-    redirect('https://motel411.base.shop/')
-  }
-})
+// import Vue from 'Vue'
+// export default Vue.extend({
+//   fetch({ redirect }) {
+//     redirect('https://motel411.base.shop/')
+//   }
+// })
 </script>
 
 <style>
